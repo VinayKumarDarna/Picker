@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B52C5C021A146D9B004212D0 /* DetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B52C5C011A146D9B004212D0 /* DetViewController.m */; };
 		B52E30B31A1388E700114B5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B52E30B21A1388E700114B5C /* main.m */; };
 		B52E30B61A1388E700114B5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B52E30B51A1388E700114B5C /* AppDelegate.m */; };
 		B52E30B91A1388E700114B5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B52E30B81A1388E700114B5C /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B52C5C001A146D9B004212D0 /* DetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetViewController.h; sourceTree = "<group>"; };
+		B52C5C011A146D9B004212D0 /* DetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetViewController.m; sourceTree = "<group>"; };
 		B52E30AD1A1388E700114B5C /* Pkr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pkr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52E30B11A1388E700114B5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B52E30B21A1388E700114B5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				B52E30B51A1388E700114B5C /* AppDelegate.m */,
 				B52E30B71A1388E700114B5C /* ViewController.h */,
 				B52E30B81A1388E700114B5C /* ViewController.m */,
+				B52C5C001A146D9B004212D0 /* DetViewController.h */,
+				B52C5C011A146D9B004212D0 /* DetViewController.m */,
 				B52E30BA1A1388E700114B5C /* Main.storyboard */,
 				B52E30BD1A1388E700114B5C /* Images.xcassets */,
 				B52E30BF1A1388E700114B5C /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				B52E30B91A1388E700114B5C /* ViewController.m in Sources */,
 				B52E30B61A1388E700114B5C /* AppDelegate.m in Sources */,
+				B52C5C021A146D9B004212D0 /* DetViewController.m in Sources */,
 				B52E30B31A1388E700114B5C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +418,7 @@
 				B52E30D21A1388E700114B5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B52E30D31A1388E700114B5C /* Build configuration list for PBXNativeTarget "PkrTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				B52E30D51A1388E700114B5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
